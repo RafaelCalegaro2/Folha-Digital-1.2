@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+#login-container, #folha-container {
+  max-width: 400px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #0001;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input, button {
+  padding: 8px;
+  font-size: 1em;
+}
+
+#folha-tabela {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 12px;
+  font-size: 0.95em;
+}
+
+#folha-tabela th, #folha-tabela td {
+  border: 1px solid #ccc;
+  padding: 4px;
+  text-align: center;
+}
+
+#folha-tabela th {
+  background: #eee;
+}
+
+#folha-tabela tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+#folha-tabela .fim-semana {
+  color: red;
+}
+
+#login-erro, #folha-msg {
+  color: red;
+  text-align: center;
+  min-height: 20px;
+}
+
+@media (max-width: 600px) {
+  #login-container, #folha-container {
+    max-width: 98vw;
+    padding: 8px;
+  }
+  #folha-tabela {
+    font-size: 0.85em;
+  }
+} 
