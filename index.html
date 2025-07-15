@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Folha Digital - Prumo Engenharia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="login-container">
+    <h2>Login</h2>
+    <form id="login-form">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+      <label for="matricula">Matrícula:</label>
+      <input type="password" id="matricula" name="matricula" required>
+      <button type="submit">Entrar</button>
+      <div id="login-erro"></div>
+    </form>
+  </div>
+
+  <div id="folha-container" style="display:none;">
+    <h2>Folha Digital</h2>
+    <div id="user-info"></div>
+    <form id="folha-form">
+      <table id="folha-tabela">
+        <!-- Tabela será gerada via JS -->
+      </table>
+      <button type="submit">Salvar</button>
+      <button type="button" id="logout-btn">Sair</button>
+      <div id="folha-msg"></div>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html> 
