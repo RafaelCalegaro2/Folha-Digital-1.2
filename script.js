@@ -1,5 +1,5 @@
 // Configurações
-const SHEET_URL = "https://script.google.com/macros/s/AKfycbxFrRFUH2doyJdLoryn1PUFy3qmp9SfSyTMDSyd4GB3IC0-DB2zO7ngx5X35lVWK342/exec"; // Troque depois de publicar o Apps Script
+const SHEET_URL = "https://script.google.com/macros/s/AKfycbxkiqicjc21bXj1HNzvf0xNfqOaDxoUtk6PCVCBxhrXFn1Bb223l9hbtD27zYhQrDLa/exec"; // Troque depois de publicar o Apps Script
 
 // Datas do período (exemplo: 21/06/2025 a 20/07/2025)
 const DIAS = [
